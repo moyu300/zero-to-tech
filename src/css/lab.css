@@ -9,7 +9,9 @@
   font-weight: 600;
 }
 
-.lab-panel { min-height: 340px; }
+.lab-panel {
+  min-height: 340px;
+}
 
 .lab-form {
   display: grid;
@@ -47,6 +49,13 @@
   color: var(--text-muted);
 }
 
+.lab-count {
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.3;
+  letter-spacing: -0.12px;
+}
+
 .primary-button {
   justify-self: start;
   min-width: 128px;
@@ -61,7 +70,9 @@
   transition: opacity 0.2s;
 }
 
-.primary-button:hover { opacity: 0.86; }
+.primary-button:hover {
+  opacity: 0.86;
+}
 
 .result-stack {
   display: grid;
