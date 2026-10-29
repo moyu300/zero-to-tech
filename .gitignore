@@ -24,6 +24,8 @@ __pycache__/
 
 # backend
 backend/*.db
+backend/handmade.py
+backend/history.json
 
 # env
 !.env.example
