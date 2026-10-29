@@ -7,7 +7,7 @@ charset-normalizer==3.5.2
 click==8.5.0
 colorama==0.4.6
 detect-installer==0.2.1
-dnspython==2.8.0
+dnspython==2.9.0
 email-validator==2.3.0
 fastapi==0.162.0
 fastapi-cli==0.0.32

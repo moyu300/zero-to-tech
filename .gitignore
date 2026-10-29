@@ -26,6 +26,7 @@ __pycache__/
 backend/*.db
 backend/handmade.py
 backend/history.json
+backend/requirements.txt.bak
 
 # env
 !.env.example
