@@ -24,3 +24,6 @@ __pycache__/
 
 # backend
 backend/*.db
+
+# env
+!.env.example
