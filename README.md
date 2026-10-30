@@ -104,7 +104,9 @@ sudo systemctl enable zero-to-tech-backend
 server {
     listen 9527;
     listen [::]:9527;
+    # 没有域名
     server_name _;
+    access_log /var/log/nginx/zero-to-tech-access.log;   # 这个网站单独记一份访客日
 
     # Next.js 静态导出目录
     root /home/dev/zero-to-tech/frontend/out;
